@@ -1,0 +1,10 @@
+server:
+  port: 8888  #配置端口号为8888
+
+  #日志配置
+  logging:
+    pattern:
+      console: "%d-%msg%n"  #  控制台输出配置,%d：日期，%msg：信息 %n:换行
+    file: D://demo//log//logback.log #日志输出文件位置
+    level:
+      root: debug #日志级别
